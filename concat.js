@@ -6,5 +6,5 @@ const concat = require("concat");
     "dist/mfe2/runtime.js",
   ];
 
-  await concat(files, "dist/mfe2/mfe-two.js");
+  await concat(files, "cdn/mfe-two.js");
 })();
